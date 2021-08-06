@@ -3,7 +3,7 @@ Pub/Sub
 
 Publicar e Assinar mensagens através do RabbitMQ
 
-# Referências
+## Referências
  - Foi utilizado o Polly para persistência da conexão.
  - Quando utilizado a Assinatura de fila, a estrutura de Exchange, fila, fila morta para controle de falhas são criados automaticamente
 

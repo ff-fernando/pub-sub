@@ -9,6 +9,9 @@ Publicar e Assinar mensagens através do RabbitMQ
 
 ## Nuget
 https://www.nuget.org/packages/pubsub-rabbitmq
+```
+dotnet add package pubsub-rabbitmq
+```
 
 Objetivos:
 

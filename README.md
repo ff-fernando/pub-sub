@@ -86,7 +86,7 @@ Assinando fila
           _routingKey = routingKey;
       }
 
-      public override Task<(bool success, string message)> Process(string @event)
+      public override Task Process(string @event)
       {
           var teste = @event;
 

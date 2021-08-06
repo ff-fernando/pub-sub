@@ -7,6 +7,9 @@ Publicar e Assinar mensagens através do RabbitMQ
  - Foi utilizado o [Polly](http://www.thepollyproject.org) para persistência da conexão.
  - Quando utilizado a Assinatura de fila, a estrutura de Exchange, fila, fila morta para controle de falhas são criados automaticamente
 
+## Nuget
+https://www.nuget.org/packages/pubsub-rabbitmq
+
 Objetivos:
 
 1. Para trabalhar com o RabbitMQ no .NET é simples.

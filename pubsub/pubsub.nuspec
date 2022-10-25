@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>pubsub-rabbitmq</id>
+    <version>1.3.5</version>
+    <title>Publisher and Subscriber for Rabbitmq</title>
+    <authors>Fernando Fernandes</authors>
+    <owners>Fernando Fernandes</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/ff-fernando/pub-sub</projectUrl>
+    <description>Publicação e assinatura através do RabbitMQ</description>
+    <releaseNotes>soluciona o problema async</releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>pub/sub rabbitmq</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Polly" version="7.2.2" />
+        <dependency id="RabbitMQ.Client" version="6.2.2" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
